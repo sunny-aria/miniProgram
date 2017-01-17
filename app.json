@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "雅座名片",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "朋友圈"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "我的名片"
+    }],
+    "borderStyle": "white"
+  }
+}
